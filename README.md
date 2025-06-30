@@ -66,8 +66,8 @@ Push to the branch: git push origin feature-xyz
 
 Submit a pull request
 
-<h2>📝 License</h2>
-This project is licensed under the [MIT](LICENSE).
+<h2>##📝 License</h2>
+This project is licensed under the [MIT License](LICENSE).
 
 <h2>👨‍💻 Author</h2>
 Gour Sundar Basak
