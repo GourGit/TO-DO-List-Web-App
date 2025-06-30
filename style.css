@@ -1,0 +1,38 @@
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .task-item {
+            animation: fadeIn 0.3s ease-out;
+        }
+
+        .checkbox-custom {
+            width: 22px;
+            height: 22px;
+            appearance: none;
+            border: 2px solid #4f46e5;
+            border-radius: 100%;
+            outline: none;
+            cursor: pointer;
+            transition: all 0.2s;
+        }
+
+        .checkbox-custom:checked {
+            background-color: #4f46e5;
+            position: relative;
+        }
+
+        .checkbox-custom:checked::after {
+            content: "\2713";
+            position: absolute;
+            color: white;
+            font-size: 12px;
+        }
